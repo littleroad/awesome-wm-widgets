@@ -5,7 +5,7 @@ layout: page
 
 When clicked, widget shows latest questions from stackoverflow.com with a given tag(s).
 
-![screenshot](../awesome-wm-widgets/assets/img/screenshots/stackoverflow-widget/screenshot.png)
+![screenshot](../awesome-wm-widgets/assets/img/widgets/screenshots/stackoverflow-widget/screenshot.png)
 
 ## Customization
 
@@ -15,7 +15,8 @@ It is possible to customize widget by providing a table with all or some of the 
 |---|---|---|
 | `icon`| `/.config/awesome/awesome-wm-widgets/stackoverflow-widget/so-icon.svg` | Path to the icon |
 | `limit` | 5 | Number of items to show in the widget |
-| `tagged` | awesome-wm | Tag, or comma-separated tags |
+| `tagged` | `awesome-wm` | Tag, or comma-separated tags |
+| `timeout` | 300 | How often in seconds the widget refreshes |
 
 ## Installation
 
